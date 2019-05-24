@@ -1,0 +1,20 @@
+#+TODO: TODO IN-PROGRESS PEER-REVIEW | DONE
+* Create sspy container builds
+** buster
+** DONE stretch
+** DONE jessie
+* Test network
+** one-ring demo site
+*** apache + silverstripe container
+*** mysql container
+** DONE sspy container
+** DONE file mount directory with sspak
+* test network script
+1. check dependencies
+2. download sspak from s3
+3. bring up network
+4. sspy load
+5. smoke test
+6. sspy save
+7. smoke test
+8. test complete build artifact?

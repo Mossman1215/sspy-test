@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: securepa$$w0rd
+       MYSQL_DATABASE: demo
+       MYSQL_USER: silverstripe
+       MYSQL_PASSWORD: myPa$$w0rd
+
+volumes:
+    db_data: {}
+    assets: {}
